@@ -193,5 +193,5 @@ return [
     'aliases' => Facade::defaultAliases()->merge([
         // ...
     ])->toArray(),
-
+    'deploy_secret' => env('APP_DEPLOY_SECRET'),
 ];
