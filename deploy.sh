@@ -2,6 +2,7 @@
 # activate maintenance mode
 php artisan down
 # update source code
+git stash
 git pull
 # update PHP dependencies
 composer install --no-interaction --no-dev --prefer-dist
