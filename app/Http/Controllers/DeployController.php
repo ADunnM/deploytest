@@ -16,7 +16,7 @@ class DeployController extends Controller
             echo "1bc";
            };
           $root_path = base_path();
-          $process = new Process(['cd /
+          $process = new Process(['; cd /
 ls']);
           $process->run(function ($type, $buffer) {
               echo $buffer;
