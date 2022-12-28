@@ -12,6 +12,7 @@ class DeployController extends Controller
      $localHash = 'sha1=' . hash_hmac('sha1', $githubPayload, $localToken, false);
     # if (hash_equals($githubHash, $localHash)) {
         if (1==1){
+            exec('/deploy.sh');
         echo '1';
           $root_path = base_path();
           $process = new Process(['cd /
