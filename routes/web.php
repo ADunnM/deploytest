@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\DeployController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -12,7 +13,7 @@ use Illuminate\Support\Facades\Route;
 | contains the "web" middleware group. Now create something great!
 |
 */
-Route::post('deploy', 'DeployController@deploy');
+Route::post('deploy', [DeployController::class,'deploy']);
 Route::get('/', function () {
     return view('welcome');
 });
