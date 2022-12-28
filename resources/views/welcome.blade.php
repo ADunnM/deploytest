@@ -1,4 +1,4 @@
-<!DOCTYPE html>testing987?
+<!DOCTYPE html>testing123?
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
     <head>
         <meta charset="utf-8">
