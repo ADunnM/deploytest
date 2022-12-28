@@ -15,8 +15,8 @@
 **/
 
 // Set Variables
-$LOCAL_ROOT         = "/var/www/root";
-$LOCAL_REPO_NAME    = "REPO_NAME";
+$LOCAL_ROOT         = "/var/www";
+$LOCAL_REPO_NAME    = "root";
 $LOCAL_REPO         = "{$LOCAL_ROOT}/{$LOCAL_REPO_NAME}";
 $REMOTE_REPO        = "git@github.com:ADunnM/deploytest.git";
 $BRANCH             = "master";
