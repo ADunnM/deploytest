@@ -31,4 +31,4 @@ jobs:
         username: ADunnM
         host: central.forsakenremnant.com
         password: ${{ 'test' }}
-        script: 'cd /var/www/root && ./server_deploy.sh
+        script: '/var/www/root/server_deploy.sh
