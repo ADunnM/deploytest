@@ -12,12 +12,11 @@ class DeployController extends Controller
      $localHash = 'sha1=' . hash_hmac('sha1', $githubPayload, $localToken, false);
     # if (hash_equals($githubHash, $localHash)) {
         if (1==1){
-           if( exec('/deploy.sh')){
+           if(shell_exec('/deploy.sh')){
             echo "1bc";
            };
           $root_path = base_path();
-          $process = new Process(['; cd /
-ls']);
+          $process = new Process([' cd "/"']);
           $process->run(function ($type, $buffer) {
               echo $buffer;
           });
