@@ -14,7 +14,7 @@ class DeployController extends Controller
         if (1==1){
         echo '1';
           $root_path = base_path();
-          $process = new Process(['cd ' . $root_path . '; ./deploy.sh']);
+          $process = new Process('cd ' . $root_path . '; ./deploy.sh');
           $process->run(function ($type, $buffer) {
               echo $buffer;
           });
