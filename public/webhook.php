@@ -11,8 +11,8 @@
         'echo $PWD',
         'whoami',
         'cd /var/www/root',
-        'git pull origin main',
-        'test',
+        './server_deploy.sh',
+
 
     );
 
