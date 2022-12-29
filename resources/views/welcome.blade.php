@@ -1,4 +1,5 @@
-<!DOCTYPE html>failure?
+
+<!DOCTYPE html>This is a test!
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
     <head>
         <meta charset="utf-8">
