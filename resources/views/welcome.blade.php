@@ -1,4 +1,4 @@
-<!DOCTYPE html>failure6?
+<!DOCTYPE html>Success1?
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
     <head>
         <meta charset="utf-8">
